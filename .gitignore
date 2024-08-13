@@ -11,6 +11,10 @@
 *.iws
 *.ipr
 
+# CLion files
+cmake-build-debug/
+**/cmake-build-debug/
+
 # Eclipse Files
 .classpath
 .project
@@ -26,10 +30,6 @@ nbdist/
 
 # VS Code
 .vscode/
-
-# .NET
-**/bin/
-**/obj/
 
 # Compiled Go binaries
 /bin/
@@ -68,4 +68,3 @@ $RECYCLE.BIN/
 
 # Mac desktop service store files
 .DS_Store
-
