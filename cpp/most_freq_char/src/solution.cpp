@@ -2,7 +2,7 @@
 
 #include <unordered_map>
 
-char Solution::most_freq_char(std::string &s) {
+char Solution::most_freq_char(std::string s) {
     std::unordered_map<char, int> count;
 
     for (int i = 0; i < s.length(); ++i) {

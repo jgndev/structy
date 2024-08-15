@@ -4,5 +4,5 @@
 
 class Solution {
 public:
-    char most_freq_char(std::string &s);
+    char most_freq_char(std::string s);
 };
