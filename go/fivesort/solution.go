@@ -10,15 +10,11 @@ func fiveSort(numbers []int) []int {
 				right--
 			}
 
-			tempL := numbers[left]
-			tempR := numbers[right]
-
-			numbers[left] = tempR
-			numbers[right] = tempL
+			numbers[left], numbers[right] = numbers[right], numbers[left]
+			right--
 		}
 
 		left++
-
 	}
 
 	return numbers
