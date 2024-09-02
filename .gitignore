@@ -5,6 +5,9 @@
 # Log file
 *.log
 
+# Clang cache
+**/.cache
+
 # IntelliJ IDEA Files
 .idea/
 *.iml
