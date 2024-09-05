@@ -1,0 +1,69 @@
+# General
+*.log
+*.tmp
+
+# IntelliJ IDEA Files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# clangd cache
+**/.cache/
+
+# CLion files
+cmake-build-debug/
+**/cmake-build-debug/
+**/build/
+compile_commands.json
+
+
+# Eclipse Files
+.classpath
+.project
+.settings/
+
+# NetBeans Files
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Compiled Go binaries
+/bin/
+/pkg/
+
+# Output of the go coverage tool
+*.out
+
+# Python
+__pycache__/
+/__pycache__/
+*.pyc
+venv/
+.env
+
+# Rust
+/target/ 
+target/
+**/target/ 
+**/*.rs.bk
+Cargo.lock
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Mac desktop service store files
+.DS_Store
