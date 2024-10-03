@@ -1,3 +1,4 @@
-# Tree Value Count
+# structy.net solutions
 
-Write a function, treeValueCount, that takes in a pointer to the root of a binary tree and a target value. The function should return the number of times that the target occurs in the tree.
+Completed solutions to problems from the course on structy.net in
+a few different programming langauges.
