@@ -55,6 +55,9 @@ target/
 **/*.rs.bk
 Cargo.lock
 
+# Zig
+./zig-cache/
+
 # Visual Studio Code
 .vscode/
 
