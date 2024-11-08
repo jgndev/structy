@@ -56,7 +56,7 @@ target/
 Cargo.lock
 
 # Zig
-./zig-cache/
+.zig-cache/
 
 # Visual Studio Code
 .vscode/
