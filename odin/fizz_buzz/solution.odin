@@ -1,11 +1,7 @@
 package solution
 
-import "core:strconv"
 import "core:fmt"
 
-main :: proc() {
-    fizz_buzz(11)
-}
 
 fizz_buzz :: proc(n: int) -> []string {
     results := make([]string, n)
